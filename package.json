@@ -1,0 +1,23 @@
+{
+  "name": "event-ticket-system",
+  "version": "1.0.0",
+  "description": "Event Ticket System using Node.js, Express, and MongoDB",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "mongoose": "^8.8.1",
+    "nodemailer": "^6.9.16",
+    "qrcode": "^1.5.4"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.7"
+  },
+  "author": "",
+  "license": "ISC"
+}
