@@ -4,8 +4,8 @@ const guestSchema = new mongoose.Schema({
     name: { type: String, required: true },
     email: { type: String, required: true, unique: true },
     isIacStudent: { type: Boolean, default: false },
-    rollNo: { type: String, unique: true },
-    cnic: { type: String, unique: true },
+    rollNo: { type: String,  },
+    cnic: { type: String,  },
     qrCode: { type: String },
     isUsed: { type: Boolean, default: false },
     createdAt: { type: Date, default: Date.now }
